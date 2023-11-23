@@ -1,0 +1,58 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all 0.2s linear;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background: rgb(220, 220, 88);
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    
+}
+.container .heading{
+    font-size: 3.2rem;
+    color: #333;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.container .menu-container{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(30%, 1fr));
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+.container .menu-container .menu{
+    text-align: center;
+    padding: 0.5rem;
+    background: #fff;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    outline: 0.1rem solid #ccc;
+    outline-offset: -0.7rem;
+}
+.container .menu-container .menu:hover{
+    outline-offset: 0;
+    outline: 0.1rem solid #000;
+
+}
+.container .menu-container .menu img{
+    width: 100%;
+}
+.container .menu-container .menu img:hover{
+    transform: scale(.9);
+}.container .menu-container .menu h3,
+.container .menu-container .menu .price{
+    font-size: 1.5rem;
+    color: #333;
+}
+.price a{
+  text-decoration: none;
+  color: #000;
+}

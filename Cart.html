@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Cart.css">
+  <script src="Cart.js"></script>
+  <title>My Cart</title>
+</head>
+<body>
+<body>
+  <div class="container">
+    <header>
+      <h1>My Cart</h1>
+    </header>
+
+    <main>
+      <section class="products">
+        <div class="product">
+          <img src="apple.jpg" alt="Apple">
+          <h2>Apple</h2>
+          <p class="price">Price: $2.00</p>
+          <label for="appleQuantity">Quantity:</label>
+          <input type="number" id="appleQuantity" value="0" min="0">
+        </div>
+        <div class="product">
+          <img src="tangerine.jpg" alt="Tangerine">
+          <h2>Tangerine</h2>
+          <p class="price">Price: $1.50</p>
+          <label for="tangerineQuantity">Quantity:</label>
+          <input type="number" id="tangerineQuantity" value="0" min="0">
+        </div>
+        <div class="product">
+          <img src="tomato.jpg" alt="Tomato">
+          <h2>Orange</h2>
+          <p class="price">Price: $1.75</p>
+          <label for="tomatoQuantity">Quantity:</label>
+          <input type="number" id="tomatoQuantity" value="0" min="0">
+        </div>
+      </section>
+
+      <section class="cart">
+        <h2>Shopping Cart</h2>
+        <ul id="cartList"></ul>
+        <p id="totalPrice">Total Price: $0.00</p>
+      </section>
+    </main>
+  </div>
+</body>
+
+</html>

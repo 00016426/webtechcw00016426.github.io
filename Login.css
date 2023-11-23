@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(forlogin.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+.container {
+    width: 450px;
+    background-color: rgb(162, 59, 162);
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.container h1 {
+    font-size: 35px;
+    text-align: center;
+}
+
+.container .input-box {
+    position: relative;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.input-box input {
+    width: calc(100% - 20px);
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid gray;
+    border-radius: 40px;
+    font-size: 16px;
+    color: white;
+    padding: 20px 45px 20px 20px;
+    box-sizing: border-box;
+}
+
+.input-box input::placeholder {
+    color: white;
+}
+
+.input-box span {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    margin-right: 5%;
+}
+
+.container .remember-and-forget {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin: -15px 0 15px;
+}
+
+.remember-and-forget label {
+    margin-right: 10px; /* Adjusted margin for spacing */
+}
+
+.remember-and-forget a {
+    color: white;
+    text-decoration: none;
+}
+
+.remember-and-forget a:hover {
+    text-decoration: underline;
+}
+
+.container .button-for-login {
+    width: 100%;
+    height: 45px;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    color: rgb(19, 11, 11);
+    font-weight: bold;
+    box-shadow: 0 0 10px rgb(72, 23, 72);
+    margin-top: 10px; /* Added margin to separate from the checkbox */
+}
+
+.container .link-for-register {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+    margin: 20px 0 15px;
+}
+
+.link-for-register p a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.link-for-register p a:hover {
+    text-decoration: underline;
+}
+
